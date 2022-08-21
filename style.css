@@ -1,0 +1,58 @@
+nav img {
+  height: 40px;
+  margin-left: 60px;
+  margin-top: 30px;
+  color: #fff;
+}
+nav {
+  display: flex;
+}
+.nav-items {
+  display: flex;
+  gap: 30px;
+  position: relative;
+  left: 740px;
+  font-weight: lighter;
+  top: 20px;
+  color: #4d4b44;
+}
+nav button {
+  width: 100px;
+  height: 35px;
+  position: relative;
+  /* left: 90px; */
+  top: 15px;
+  border-radius: 8px;
+  background-color: #2b2922;
+  border: 2px solid #a08f36;
+  color: #a08f36;
+}
+
+body {
+  background-color: #2b2922;
+  font-family: "Roboto";
+}
+.content {
+  display: flex;
+}
+.left-section h1 {
+  font-size: 4rem;
+  width: 85%;
+  color: #fff;
+  margin-left: 50px;
+  margin-top: 80px;
+}
+.right-section p {
+  width: 40%;
+  color: #83827d;
+  margin-top: 120px;
+  margin-left: 390px;
+}
+.court_img {
+  background: url("./images/court.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 450px;
+}
